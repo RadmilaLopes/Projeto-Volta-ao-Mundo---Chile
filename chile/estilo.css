@@ -1,0 +1,24 @@
+.font-menu {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+#logo{
+	width: 100%;
+    height: auto;
+}
+#titulo{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: bold;
+}	
+		
+#texto{
+	text-align: justify;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+}
+
+#rodape{
+	text-align: center;
+}
