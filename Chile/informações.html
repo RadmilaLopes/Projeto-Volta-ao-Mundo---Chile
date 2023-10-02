@@ -27,20 +27,20 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	<div class="navbar-nav mx-auto">
       <a class="nav-item nav-link mx-3 font-menu" href="index.html">Home</a>
-      <a class="nav-item nav-link mx-3 font-menu" href="#">Cultura Local</a>
-      <a class="nav-item nav-link mx-3 font-menu" href="#">Pontos Turísticos</a>
-      <a class="nav-item nav-link mx-3 font-menu" href="#">Pratos Típicos</a>
-      <a class="nav-item nav-link mx-3 font-menu" href="#">Informações</a>
+      <a class="nav-item nav-link mx-3 font-menu" href="cultura-local.html">Cultura Local</a>
+      <a class="nav-item nav-link mx-3 font-menu" href="pontos-turisticos.html">Pontos Turísticos</a>
+      <a class="nav-item nav-link mx-3 font-menu" href="pratos-tipicos.html">Pratos Típicos</a>
+      <a class="nav-item nav-link mx-3 font-menu" href="informações.html">Informações</a>
     </div>
   </div>
 </nav>
 
 	<p></p>
 	<div class="container">
-    <div class="row">
-    <div class="col-6">
 	<!-- texto -->
-	<h1>História do Chile</h1>
+	<div id="titulo">História do Chile</div><p></p>
+	
+	<div id="texto">
 	<p>O Chile é um país localizado na América do Sul. Está situado na porção sul do subcontinente sul-americano, em um território longilíneo, 
 	marcado pelas grandes diferenças em termos geográficos. Essa variedade de aspectos naturais é dada, principalmente, em razão da dimensão 
 	territorial chilena, que possui grande extensão latitudinal.</p>
@@ -52,20 +52,36 @@
 	da América do Sul. O território chileno tem, ainda, uma moderna infraestrutura, com destaque para o setor de transportes. Contudo, é um país marcado 
 	pela desigualdade social entre a população.</p>
 	</div>
-    </div>
-		
-	<!-- imagem -->
-	
-	<div class="col-12" style="text-align: right;">
-    <img src="img/chile.jpg" alt="Sua Imagem" class="img-fluid">
-    </div>
 	</div>
 	
+	<div class="container mt-6">
+	<div class="row justify-content-center">               
+    <div class="col-md-6">
+                 
+    <figure class="img-thumbnail">
+    <img class="figure-img img-fluid mx-auto d-block" src="img/chile.jpg" alt="Imagem">
+    <figcaption class="figure-caption">
+    <h3>Bandeira do Chile</h3>
+    <p class="text-justify">
+	O significado para seu pavilhão tricolor:<br>
+	Azul: representa as águas do Oceano Pacífico;<br>
+	Branco: representa os picos da Cordilheira dos Andes que estão sempre nevados;<br>
+	Vermelho: representa o sangue daqueles que caíram lutando pela independência do Chile.</p>
+    </figcaption>
+    </figure>
+    </div>
+	</div>
+	</div>
 	
-	<h1>Mapa do Chile</h1>
-
+	<!-- Mapa -->
+	<p></p>
+	<div class="container">
+	<div id="titulo">Mapa do Chile</div>
 	<!-- imagem -->
-	<img src= "img/mapa.jpg" class="img-fluid">
+	<img src= "img/mapa.jpg" class="img-fluid mx-auto d-block">
+	</div>
+	<p></p>
+	
 	
 	<!-- Rodapé -->
 	<nav class="navbar navbar-dark bg-dark">
@@ -73,7 +89,7 @@
 	<span class="navbar-brand mb-0 h1 text-center w-100">Desenvolvido por Radmila Lopes</span>
   </div>
 </nav>
-  
+  </div>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
